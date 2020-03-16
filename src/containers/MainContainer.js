@@ -5,7 +5,8 @@ import SearchBar from '../components/SearchBar'
 
 class MainContainer extends Component {
   state = {
-    stocks: []
+    stocks: [],
+    price: []
   }
 
   componentDidMount(){
